@@ -1,6 +1,7 @@
 
 
-def name():
-    print("My name is Goke Adeleke")
+def name(name):
+    print(f"My name is {name}")
 
-name()
+my_name = input("input your name")    
+name(my_name)
